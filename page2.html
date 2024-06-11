@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NHUUUUU</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <img src="E:\2adc6f3e35179d6f94bc048a0d3e3f41.jpg">
+    Thần Đằng:
+    <button id="Hienthi">Nhấn Để Hiện Lời Tiên Tri!!</button>
+    <script>
+        const vineboom = new Audio('vine-boom.mp3');
+        const buttondd = document.getElementById('Hienthi');
+        buttondd.addEventListener('click', function() {
+            vineboom.play();
+            var h1Element = document.createElement('h1');
+            h1Element.textContent = 'MẸ MÀY BÉO';
+            document.body.appendChild(h1Element);
+        });
+    </script>
+</body>
+</html>
